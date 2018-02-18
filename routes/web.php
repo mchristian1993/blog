@@ -23,3 +23,7 @@ Route::post('foo/bar',	function() {
      
 Route::get('user/{id}',	function($id) {			
     	return	'User	'.$id; });
+
+
+        Route::get('ur/{id}',	function($id) {			
+            return	'User	'.$id; });
